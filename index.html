@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Abhishek Kumar — Cybersecurity Analyst (SOC L1) portfolio">
+  <title>Abhishek Kumar | Cybersecurity Analyst</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="header">
+    <nav class="nav container">
+      <a class="logo" href="#home"><span>&lt;/&gt;</span> Abhishek</a>
+      <button class="menu-btn" aria-label="Open menu" aria-expanded="false">☰</button>
+      <div class="nav-links">
+        <a href="#home">Home</a><a href="#about">About</a><a href="#skills">Skills</a>
+        <a href="#projects">Projects</a><a href="#resume">Resume</a><a href="#contact">Contact</a>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section id="home" class="hero">
+      <div class="grid-bg"></div>
+      <div class="container hero-content">
+        <div class="hero-copy reveal">
+          <p class="eyebrow"><span class="dot"></span> SOC L1 • CYBERSECURITY</p>
+          <h1>Defending systems.<br><span>Detecting threats.</span></h1>
+          <p class="hero-text">I'm Abhishek Kumar, a Cybersecurity Analyst focused on threat detection, log analysis, vulnerability assessment and practical security operations.</p>
+          <div class="hero-actions">
+            <a class="btn primary" href="#projects">View Projects ↗</a>
+            <a class="btn secondary" href="#contact">Let's Connect</a>
+          </div>
+          <div class="terminal">
+            <div class="terminal-top"><i></i><i></i><i></i><span>security@abhishek:~</span></div>
+            <div class="terminal-body"><span class="green">$</span> whoami<br><b>Cybersecurity Analyst (SOC L1)</b><br><span class="green">$</span> status<br><span class="ok">● learning • monitoring • securing</span></div>
+          </div>
+        </div>
+        <div class="hero-card reveal">
+          <div class="shield">⌁</div>
+          <div class="scan"></div>
+          <p class="mono">SECURITY PROFILE</p>
+          <h3>Threat Detection<br>& Response</h3>
+          <div class="mini-stats"><span><b>3+</b> Internships</span><span><b>4</b> Projects</span><span><b>24/7</b> Learning</span></div>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="section">
+      <div class="container">
+        <div class="section-head reveal"><span>01</span><h2>About Me</h2></div>
+        <div class="about-grid">
+          <div class="about-copy reveal">
+            <p class="lead">I got into security not just to learn theory, but to actually understand how attacks happen — and how to stop them.</p>
+            <p>Over the past few months, I have worked across three internships with practical exposure to real log analysis, SSH brute-force detection, network scanning and vulnerability assessments.</p>
+            <p>I work with Linux and regularly use tools such as Nmap, Wireshark and Burp Suite. I continue sharpening my skills through TryHackMe and HackTheBox labs.</p>
+          </div>
+          <div class="facts reveal">
+            <div><span>LOCATION</span><b>Delhi, India</b></div>
+            <div><span>EDUCATION</span><b>BCA • IGNOU</b></div>
+            <div><span>ROLE</span><b>Cybersecurity Analyst (SOC L1)</b></div>
+            <div><span>FOCUS</span><b>Threat Detection & Incident Response</b></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="skills" class="section dark-section">
+      <div class="container">
+        <div class="section-head reveal"><span>02</span><h2>Technical Skills</h2></div>
+        <div class="skills-grid">
+          <div class="skill-card reveal"><div class="skill-icon">⌘</div><h3>SIEM & Monitoring</h3><p>Splunk • Log Analysis • Alert Investigation</p></div>
+          <div class="skill-card reveal"><div class="skill-icon">⇄</div><h3>Networking</h3><p>TCP/IP • DNS • HTTP/HTTPS • Packet Analysis</p></div>
+          <div class="skill-card reveal"><div class="skill-icon">◈</div><h3>Security Tools</h3><p>Kali Linux • Nmap • Burp Suite • Wireshark • VirusTotal</p></div>
+          <div class="skill-card reveal"><div class="skill-icon">▣</div><h3>Operating Systems</h3><p>Linux (CLI) • Log Monitoring</p></div>
+          <div class="skill-card reveal"><div class="skill-icon">⚠</div><h3>Security Concepts</h3><p>Incident Response • Threat Detection • Vulnerability Assessment • MITRE ATT&CK</p></div>
+        </div>
+      </div>
+    </section>
+
+    <section id="projects" class="section">
+      <div class="container">
+        <div class="section-head reveal"><span>03</span><h2>Projects</h2></div>
+        <div class="projects-grid">
+          <article class="project reveal"><div class="project-img log">LOG ANALYSIS</div><div class="project-body"><span>01 • SOC</span><h3>Log Analysis & Threat Detection</h3><p>Detected brute-force attacks using Linux log data and identified malicious IP patterns and login anomalies through manual parsing.</p><div class="tags"><b>Linux</b><b>Log Analysis</b><b>Threat Detection</b></div></div></article>
+          <article class="project reveal"><div class="project-img websec">WEB SECURITY</div><div class="project-body"><span>02 • APPSEC</span><h3>Web Application Security Testing</h3><p>Discovered XSS and input-validation vulnerabilities in test environments using Burp Suite and documented findings with severity ratings.</p><div class="tags"><b>Burp Suite</b><b>XSS</b><b>Vulnerability Assessment</b></div></div></article>
+          <article class="project reveal"><div class="project-img python">PYTHON CLI</div><div class="project-body"><span>03 • PYTHON</span><h3>Password Strength Analyser</h3><p>A Python CLI tool that evaluates password security using entropy scoring, common-pattern detection and policy compliance checks.</p><div class="tags"><b>Python</b><b>Entropy</b><b>CLI</b></div></div></article>
+          <article class="project reveal"><div class="project-img osint">OSINT / RECON</div><div class="project-body"><span>04 • OSINT</span><h3>Phone Number Intelligence & OSINT Tool</h3><p>Passive OSINT reconnaissance using the phonenumbers library to extract geographic region, carrier, timezone and validity information.</p><div class="tags"><b>Python 3.x</b><b>phonenumbers</b><b>OSINT</b></div></div></article>
+        </div>
+      </div>
+    </section>
+
+    <section id="resume" class="section resume-section">
+      <div class="container resume-box reveal">
+        <div><p class="eyebrow">04 • RESUME</p><h2>Ready to review my background?</h2><p>Download my latest CV for a detailed look at my experience, projects and skills.</p></div>
+        <a class="btn primary" href="abhishek_cv.pdf" download>Download CV ↓</a>
+      </div>
+    </section>
+
+    <section id="contact" class="section">
+      <div class="container">
+        <div class="section-head reveal"><span>05</span><h2>Contact</h2></div>
+        <div class="contact-grid">
+          <div class="contact-copy reveal"><h3>Let's connect.</h3><p>Have an opportunity, project or cybersecurity discussion? Send a message.</p><div class="contact-links"><a href="mailto:kumarabhishek1562041@gmail.com">✉ <span>kumarabhishek1562041@gmail.com</span></a><a href="https://linkedin.com/in/abhishek-kumar-6840712b7" target="_blank" rel="noopener">in <span>LinkedIn Profile ↗</span></a></div></div>
+          <form id="contactForm" class="contact-form reveal" novalidate>
+            <label>Name<input id="name" type="text" placeholder="Your name"><small></small></label>
+            <label>Email<input id="email" type="email" placeholder="you@example.com"><small></small></label>
+            <label>Message<textarea id="message" rows="5" placeholder="Tell me about your project or opportunity..."></textarea><small></small></label>
+            <button class="btn primary" type="submit">Send Message ↗</button>
+            <p id="formStatus" class="form-status" aria-live="polite"></p>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer><div class="container footer-inner"><span>© <span id="year"></span> Abhishek Kumar</span><span class="mono">SECURE • CURIOUS • ALWAYS LEARNING</span></div></footer>
+  <script src="script.js"></script>
+</body>
+</html>
